@@ -7,7 +7,7 @@
     "bin": {
         "build-download-phonegap": "bin/index.js"
     },
-    "main": "./lib/send-to-phonegap.js",
+    "main": "./lib/download-builds-from-phonegap.js",
     "preferGlobal": "true",
     "scripts": {
         "test": "echo \"No tests arrrghhh\" && exit 1"
