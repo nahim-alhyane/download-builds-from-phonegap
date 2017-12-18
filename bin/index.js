@@ -2,4 +2,4 @@
 
 const downloadPhonegapBuilds = require('../lib/download-builds-from-phonegap')
 
-return downloadPhonegapBuilds.sendToPhonegapBuild(phonegapAppId, phonegapAuthToken, callback)
+return downloadPhonegapBuilds.sendToPhonegapBuild(phonegapAppId, phonegapAuthToken, androidFilename, iosFilename, callback)
