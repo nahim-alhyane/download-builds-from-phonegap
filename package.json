@@ -1,0 +1,37 @@
+{
+    "author": "Nahim ALHYANE",
+    "license": "MIT",
+    "name": "download-builds-from-phonegap",
+    "version": "1.0.0",
+    "description": "Download the phonegap builds to your hard drive or SSD :-)",
+    "bin": {
+        "build-download-phonegap": "bin/index.js"
+    },
+    "main": "./lib/send-to-phonegap.js",
+    "preferGlobal": "true",
+    "scripts": {
+        "test": "echo \"No tests arrrghhh\" && exit 1"
+    },
+    "dependencies": {
+        "colors": "^1.1.2",
+        "cordova-to-phonegap-build": "^1.0.1"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nahim-alhyane/download-builds-from-phonegap.git"
+    },
+    "keywords": [
+        "download",
+        "cordova",
+        "pgb",
+        "phonegap-build"
+    ],
+    "bugs": {
+        "url": "https://github.com/nahim-alhyane/download-builds-from-phonegap/issues"
+    },
+    "homepage": "https://github.com/nahim-alhyane/download-builds-from-phonegap#readme"
+}
