@@ -2,7 +2,7 @@
     "author": "Nahim ALHYANE",
     "license": "MIT",
     "name": "download-builds-from-phonegap",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Download the phonegap builds to your hard drive or SSD :-)",
     "bin": {
         "build-download-phonegap": "bin/index.js"
@@ -14,7 +14,8 @@
     },
     "dependencies": {
         "colors": "^1.1.2",
-        "cordova-to-phonegap-build": "^1.0.1"
+        "cordova-to-phonegap-build": "^1.0.1",
+        "phonegap-build-api": "^0.4.0"
     },
     "directories": {
         "lib": "lib"
