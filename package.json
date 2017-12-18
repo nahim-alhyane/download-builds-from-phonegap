@@ -2,7 +2,7 @@
     "author": "Nahim ALHYANE",
     "license": "MIT",
     "name": "download-builds-from-phonegap",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Download the phonegap builds to your hard drive or SSD :-)",
     "bin": {
         "build-download-phonegap": "bin/index.js"
